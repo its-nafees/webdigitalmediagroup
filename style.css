@@ -1,0 +1,186 @@
+ *{
+   margin: 0;
+   padding: 0;
+ }
+
+
+h1 ,h2{
+    margin: 0%;
+    padding: 0%;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+   
+    font-family: "Mirza", serif;
+    font-weight: 400;
+    font-style: normal;
+    }
+  
+
+.about {
+    font-family: "Cormorant Garamond", serif;
+    font-style: normal;
+    text-align: center;
+    font-weight: bold;
+  }
+  
+
+   .head{
+    font-size: 5cap;
+    font-weight: bold;
+   } 
+  
+  
+ .carousel-caption{
+    margin-left: 0%;
+    padding: 0%;
+    
+
+ }
+
+ .carousel-inner{
+    /* display: flex;
+    justify-items: center;
+    align-items: center; */
+    position: relative;
+ }
+ .carousel-caption{
+    position: absolute;
+    left: -35%;
+    top: 40%;
+ }
+
+
+ .counting{
+    height: 500px;
+    width: 100%;
+    
+ }
+
+.counter-area{
+   padding: 2.87rem 0 1.875rem;
+   
+   
+}
+
+.single-counter{
+   position: relative;
+   
+}
+
+.single-counter span{
+font-size: 2rem;
+
+}
+.single-counter::after{
+   position: absolute;
+   height: 70%;
+   width: 0.06rem;
+   background-color: var(--bg-black);
+   top: 50%;
+   right: 0;
+   transform: translateY(-50%);
+   opacity: 0.15;
+}
+.single-counter:last-child::after{
+   display: none; 
+}
+
+.Icons{
+   height: 50px;
+   width: 50px;
+}
+
+.Optimize{
+   background-color: black;
+}
+
+.feature2{
+border: solid black;
+}
+
+.col :hover img{
+   scale: 1.1;
+   box-shadow: 5px 5px 5px rgb(255, 47, 210);
+   cursor: pointer;
+}
+.col1{
+   scale: 0.8;
+   box-shadow: 5px 5px 5px rgb(255, 47, 210);
+   cursor: pointer;
+}
+
+.cardfeature{
+   text-align: center;
+   width: 750px;
+   height: 400px;
+   margin: 5px 5px 5px 5px;
+   padding: 5px;
+}
+
+.ring{
+   margin-top: 10px;
+   padding-left: auto;
+align-items: center;
+justify-content: center;
+display: flex;
+}
+
+.awards{
+   background-color: cadetblue
+}
+
+.socialme{
+   cursor: pointer;
+}
+.chooseus:hover {
+
+cursor: pointer;
+scale: 1.1 ;
+}
+.chooseus1{
+   cursor: pointer;
+}
+.custom-hover{
+   background-color:rgb(210, 87, 30);
+}
+
+.custom-hover:hover {
+   background-color:cadetblue;
+   cursor: pointer;
+
+}
+
+.special{
+   color: rgb(210, 87, 30);;
+}
+
+.footerc:hover{
+   color: rgb(210, 87, 30);;
+}
+
+.ringdegine{
+   margin-right:0 ;
+   padding-top: 100px;
+   padding-left:50px;
+   justify-content: center;
+   height: 10px;
+   width: 10px;
+}
+.aboutus {
+background-color:  rgb(210, 87, 30);
+}
+
+.aboutus:hover{
+background-color: white;
+}
+
+
+.seosection{
+   
+   height: 750px;
+   background-size: cover;
+   background-image: url(team-4124197_1280.jpg);
+   margin-top: 10px;
+   margin-bottom: 10px;
+}
